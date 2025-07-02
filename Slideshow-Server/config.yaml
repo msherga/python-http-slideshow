@@ -1,6 +1,7 @@
-name: Slideshow HTTP Server
+name: "Slideshow Server"
+url: "https://github.com/msherga/python-http-slideshow/"
 version: "1.0"
-slug: slideshow_http
+slug: "slideshow_http"
 description: "Serves /config/www/Slideshow via HTTP"
 startup: application
 boot: auto
