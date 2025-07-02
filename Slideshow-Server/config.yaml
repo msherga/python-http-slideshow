@@ -1,0 +1,15 @@
+name: Slideshow HTTP Server
+version: "1.0"
+slug: slideshow_http
+description: "Serves /config/www/Slideshow via HTTP"
+startup: application
+boot: auto
+host_network: true
+map:
+  - config:rw
+init: false
+panel_icon: mdi:image
+arch:
+  - amd64
+  - aarch64
+  - armv7
