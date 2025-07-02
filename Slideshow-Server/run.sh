@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-echo "[INFO] Nanit stream add-on starting..."
+echo "[INFO] Slideshow Server add-on starting..."
 cd /local/Slideshow
 python3 -m http.server 8000 --bind 0.0.0.0
