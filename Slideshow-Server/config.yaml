@@ -8,6 +8,7 @@ boot: auto
 host_network: true
 map:
   - config:rw
+  - media:rw
 init: false
 panel_icon: mdi:image
 arch:
